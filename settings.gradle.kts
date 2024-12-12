@@ -21,7 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Demo_Clock"
 include(":app")
-include(":clock-ui")
+include(":clock-app")
 include(":network")
 include(":domain")
 include(":data")

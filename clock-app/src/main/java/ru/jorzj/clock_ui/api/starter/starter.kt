@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import com.arkivanov.decompose.defaultComponentContext
 import ru.jorzj.clock_ui.internal.navigation.Component
 import ru.jorzj.clock_ui.internal.dagger.AppModule
-import ru.jorzj.clock_ui.internal.navigation.dagger.DaggerMainDaggerComponent
+import ru.jorzj.clock_ui.internal.dagger.DaggerMainDaggerComponent
 import ru.jorzj.clock_ui.internal.screen.root.RootContent
 
 @Composable

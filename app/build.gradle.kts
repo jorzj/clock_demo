@@ -50,8 +50,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":clock-ui"))
-    implementation(project(":network"))
+    implementation(project(":clock-app"))
 
     implementation(libs.androidx.activity.compose)
 

@@ -1,6 +1,7 @@
 package ru.jorzj.data.dagger
 
 import dagger.Binds
+import dagger.Module
 import ru.jorzj.data.local.AvailableTimeZonesRepositoryImpl
 import ru.jorzj.data.local.TimeRepositoryImpl
 import ru.jorzj.data.local.TimeZoneRepositoryImpl

@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "ru.jorzj.clock_ui"
+    namespace = "ru.jorzj.clock_app"
     compileSdk = 34
 
     defaultConfig {

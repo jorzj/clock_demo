@@ -12,7 +12,7 @@ import ru.jorzj.clock_ui.internal.component.model.CurrentModel
 import ru.jorzj.clock_ui.internal.dagger.Router
 import ru.jorzj.clock_ui.internal.navigation.BaseComponent
 import ru.jorzj.clock_ui.internal.navigation.ComponentState
-import ru.jorzj.clock_ui.internal.screen.list.CurrentContent
+import ru.jorzj.clock_ui.internal.screen.current.CurrentContent
 import ru.jorzj.domain.uc.GetTime
 
 

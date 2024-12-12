@@ -11,7 +11,7 @@ import ru.jorzj.clock_ui.internal.component.model.ListModel
 import ru.jorzj.clock_ui.internal.dagger.Router
 import ru.jorzj.clock_ui.internal.navigation.BaseComponent
 import ru.jorzj.clock_ui.internal.navigation.ComponentState
-import ru.jorzj.clock_ui.internal.screen.current.ListContent
+import ru.jorzj.clock_ui.internal.screen.list.ListContent
 import ru.jorzj.domain.uc.GetListTimeZones
 import ru.jorzj.domain.uc.SaveTimeZone
 
