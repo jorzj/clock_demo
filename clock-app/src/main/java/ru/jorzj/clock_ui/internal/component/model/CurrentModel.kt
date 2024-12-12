@@ -34,10 +34,12 @@ class CurrentModel(
             var timeInSeconds = initialValue
             while (isActive) {
                 onTick(timeInSeconds)
-                timeInSeconds++
+                // следим за переполнением дня
+                timeInSeconds = timeInSeconds % 86400 + 1
                 delay(1000L)
             }
         }
+
     private fun requestTime() {
         ioScope.launch {
             getTime().collectLatest { (timeZone, time) ->
